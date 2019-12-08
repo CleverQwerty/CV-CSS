@@ -1,0 +1,159 @@
+/************************ IMAGES *************************/
+.cqlogo {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+}
+
+.design-image {
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
+  background-color:#dff6f0;
+  padding: 2%;
+  float:left;
+  margin-right: 30px;
+
+}
+
+.develop-image {
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
+  background-color:#dff6f0;
+  padding: 2%;
+  float:right;
+  margin:left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+/******************* TAGS **************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Solway", serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  border-color: #b2dffb;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*90px     1rem=16px */
+  font-family: "Satisfy", cursive;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  /* 40px */
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: "Solway", serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+  color: #01024e;
+  font-size: 1.25em;
+}
+
+/************************** CONTAINERs/DIVs *************************/
+.top-container {
+  background-color: #dff6f0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px auto 100px;
+}
+
+.bottom-container {
+  background-color: #6decb9;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px; /* 1st 0 is for top, auto is for left-right and 2nd 0 is for bottom margin. 'auto' will center the content */
+    text-align: left;
+  }
+
+  .Hi{
+    width: 30%;
+    margin:auto;
+  }
+
+.under-line{
+  text-decoration: underline;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 100px;
+}
+
+  /******************** BUTTON *****************************/
+
+
+  .myButton {
+  	box-shadow: 0 1px 0 0 #f0f7fa;
+  	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  	background-color:#11cdd4;
+  	border-radius:8px;
+  	border:1px solid #057fd0;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	  font-family: "Solway", serif;
+  	font-size:20px;
+  	font-weight:bold;
+  	padding:6px 24px;
+  	text-decoration:none;
+  	text-shadow:0 -1px 0 #5b6178;
+  }
+  .myButton:hover {
+  	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  	background-color:#11999e;
+  }
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
